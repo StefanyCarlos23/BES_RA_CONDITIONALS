@@ -1,9 +1,9 @@
-x = int(input("Digite um número: "))
+x = int(input("Type a number: "))
 if x==0:
     print("ZERO")
 elif x==1:
-    print("UM")
+    print("ONE")
 elif x==2:
-    print("DOIS")
+    print("TWO")
 else:
-    print("ERRO")
+    print("ERROR!")
