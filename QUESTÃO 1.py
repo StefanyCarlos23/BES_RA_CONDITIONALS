@@ -1,4 +1,4 @@
-x = int(input("Type a number: "))
+x = int(input("Enter a number: "))
 if x==0:
     print("ZERO")
 elif x==1:

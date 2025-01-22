@@ -1,11 +1,12 @@
-nome = input("Olá, nesse programa você irá descobrir qual seu peso ideal.\n Para começar, digite o seu nome: ")
-altura = float(input("Digite a sua altura em metros: "))
-sexo = input("Digite o seu sexo (Masculino ou Feminino): ")
-if sexo == "Masculino":
-    pesoideal = 72.7*altura- 58
-    print(f"{nome} seu peso ideal é {pesoideal}kg.")
-elif sexo == "Feminino":
-    pesoIdeal = 62.1*altura-44.7
-    print(f"{nome} seu peso ideal é {pesoIdeal}kg.")
+userName = input("Hello! In this program you will discover what is your ideal weight.\n To start, please enter your name: ")
+userHeight = float(input("Now, enter your height in meters:"))
+userGender = input("Finally, enter your biological sex (Male or Female")
+
+if userGender == "Male":
+    idealWeight = 72.7*userHeight- 58
+    print(f"{userName} your ideal weight is {idealWeight:.2f} kilograms.")
+elif userGender == "Female":
+    idealWeight = 62.1*userHeight-44.7
+    print(f"{userName} your ideal weight is {idealWeight:.2f} kilograms.")
 else:
-    print("Sexo inválido")
+    print("Invalid input for biological sex.")

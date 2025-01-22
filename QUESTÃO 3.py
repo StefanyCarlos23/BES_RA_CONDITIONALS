@@ -1,7 +1,7 @@
-temp = int(input("Digite a temperatura atual em °C: "))
-if temp <15:
-    print("Está frio!!")
-elif temp >25:
-    print("Está calor!!")
+temperature = int(input("Enter the current temperature in °C "))
+if temperature < 15:
+    print("It's Cold!!")
+elif temperature > 25:
+    print("It's Hot!!")
 else:
-    print("A temperatura está agradável!: ")
+    print("The temperature is nice!! ")
