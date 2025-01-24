@@ -1,6 +1,7 @@
-idade = int(input("Digite sua idade para saber se você pode andar na montanha Hopi Hari: "))
-peso = float(input("Agora digite seu peso: "))
-if((idade >= 15) and (peso <120)):
-    print("Liberado!")
+userAge = int(input('Enter your age to find out if you can ride a Hopi Hari roller coaster: '))
+userWeight = float(input('Now enter your weight: '))
+
+if ((userAge >= 15) and (userWeight < 120)):
+    print('Allowed!')
 else:
-    print("Proibido!")
+    print('Prohibited!')
