@@ -1,9 +1,10 @@
-idade = int(input("Para saber se você pode um eleitor(a), digite sua idade: "))
-if idade <16:
-    print("Você ainda não pode ser um eleitor(a)")
-elif idade >=16 and idade <=18:
-    print("Você pode ser um eleitor(a) facultativo.")
-elif idade >=18 and idade <=65:
-    print("Você já um eleitor(a) obrigatório.")
+userAge = int(input('To find out if you can be a voter, enter you age: '))
+
+if userAge < 16:
+    print('You cannot be a voter yet.')
+elif 16 >= userAge <=18:
+    print('You can be an optional voter.')
+elif 18 <= userAge <= 65:
+    print('You are required to be a voter.')
 else:
-    print("Seu voto não é mais obrigatório.")
+    print('You are no longer required to vote')
