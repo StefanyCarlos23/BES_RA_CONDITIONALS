@@ -1,10 +1,11 @@
-idade = int(input("Para descobrir se você já pode se aposentar. Digite sua idade: "))
-tempotrab = int(input("Agora digite quantos anos de serviço você tem: "))
-if(idade >=65):
-    print("Você já pode se aposentar!!")
-elif(tempotrab >=30):
-    print("Você já pode se aposentar!!")
-elif((idade >=60) and (tempotrab >=25)):
-    print("Você já pode se aposentar!!")
+userAge  = int(input('To find out if you can retire, enter your age: '))
+jobTime = int(input('Now, enter how many years of service you have: '))
+
+if userAge >= 65:
+    print('Congratulations, you can retire!!')
+elif jobTime >= 30:
+    print('Congratulations, You can retire!!')
+elif userAge >=60 and jobTime >= 25:
+    print('Congratulations, You can retire!!.')
 else:
-    print("Você ainda não pode se aponsetar.")
+    print('You cannot retire yet.')
