@@ -6,11 +6,11 @@ while True:
     if number == 000:
         break
     elif number %2 == 0:
-        O.append(number)
-        print(f"The number {number} is odd.")
-    elif number %2 != 0:
         E.append(number)
         print(f"The number {number} is even.")
+    elif number %2 != 0:
+        O.append(number)
+        print(f"The number {number} is odd.")
     else:
-        print(f"Invalid input")
+        print("Invalid input")
 print(f"Even numbers list: {E}\n Odd numbers list: {O}")
