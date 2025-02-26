@@ -19,7 +19,6 @@ while (true) {
         O.push(number)
         alert("The number " + number + " is odd.")
     }
-    
 }
 
 alert("Even number list: " + E + " \n Odd numbers list: " + O)
