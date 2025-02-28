@@ -1,6 +1,6 @@
 while True:
     firstGrade = float(input('Enter your first term grade (0 to 10): '))
-    if firstGrade <= 0 or firstGrade >= 10:
+    if firstGrade < 0 or firstGrade > 10:
         print("The first grade must to be between 0 and 10. Please enter them again.")
         continue
 
